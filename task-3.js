@@ -1,0 +1,16 @@
+console.log('1-----');
+console.log(String(console.log),Number(console.log),Boolean(console.log));
+console.log('2-----');
+console.log(String({ name: 'Maxim' }),Number({ name: 'Maxim' }),Boolean({ name: 'Maxim' }));
+console.log('3-----');
+console.log(String(Symbol('key')),/*Number(Symbol('key')),*/Boolean(Symbol('key')));
+console.log('4-----');
+console.log(String(Number),Number(Number),Boolean(Number));
+console.log('5-----');
+console.log(String(''),Number(''),Boolean(''));
+console.log('6-----');
+console.log(String(0),Number(0),Boolean(0));
+console.log('7-----');
+console.log(String(-10),Number(-10),Boolean(-10));
+console.log('8-----');
+console.log(String('-105'),Number('-105'),Boolean('-105'));
